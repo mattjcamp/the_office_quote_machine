@@ -1,0 +1,31 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  color: whitesmoke;
+  font-weight: bolder;
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../public/the-office-1024x576.jpg");
+  background-repeat: no-repeat;
+}
+
+.main h1 {
+  font-size: 64px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    background-image: none;
+    color: darkslategray;
+  }
+  .main h1 {
+    font-size: 24px;
+  }
+}
